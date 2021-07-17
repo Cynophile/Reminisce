@@ -1,25 +1,70 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "dir": "ltr",
+  "lang": "en",
+  "name": "Reminisce",
+  "short_name": "Reminisce",
+  "scope": "/",
+  "display": "browser",
+  "start_url": "http://socialappfinal.netlify.app/",
+  "background_color": "transparent",
+  "theme_color": "transparent",
+  "description": "Photo and Video Sharing App",
+  "orientation": "portrait",
+  "related_applications": [],
+  "prefer_related_applications": false,
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "/favicon.ico",
+      "sizes": "16x16 24x24 32x32 64x64"
     },
     {
-      "src": "logo192.png",
+      "src": "/favicon.ico",
+      "sizes": "16x16 24x24 32x32 64x64"
+    },
+    {
+      "src": "https://socialappfinal.netlify.app/logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "/favicon.ico",
+      "sizes": "16x16 24x24 32x32 64x64"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 24x24 32x32 64x64"
+    },
+    {
+      "src": "https://socialappfinal.netlify.app/logo192.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "192x192"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 24x24 32x32 64x64"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 24x24 32x32 64x64"
+    },
+    {
+      "src": "https://socialappfinal.netlify.app/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 24x24 32x32 64x64"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 24x24 32x32 64x64"
+    },
+    {
+      "src": "https://socialappfinal.netlify.app/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "screenshots": []
 }

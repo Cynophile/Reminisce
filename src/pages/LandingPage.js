@@ -10,7 +10,7 @@ import {
     Fade,
     makeStyles,
 } from "@material-ui/core";
-import forImage from "../images/Login.gif";
+import Logo from "../images/Login.gif";
 
 import Login from "../components/Login"
 import Register from "../components/Register";
@@ -92,7 +92,7 @@ const LandingPage = () => {
                 }}
                 className={classes.section}>
                 <Grid item>
-                    <img src={forImage.LoginImg} className={classes.image} alt="" />
+                    <img src={Logo} className={classes.image} alt="" />
                     <h2 style={{ color: "#555", fontWeight: 500, fontFamily: 'Fredoka One' }}>
                         Photo and Video Sharing Application
                     </h2>
