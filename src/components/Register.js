@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import firebase, { db, facebookProvider, googleProvider } from "../utils/firebase";
+import firebase, { db } from "../utils/firebase";
 import { useHistory } from 'react-router-dom';
 //IMPORTED STYLES
 import { makeStyles } from '@material-ui/core/styles';
@@ -61,25 +61,25 @@ export default function Register() {
         event.preventDefault();
     };
     //GOOGLE SIGNIN
-    const google = () => {
-        try {
-            firebase
-                .auth()
-                .signInWithPopup(googleProvider);
-        } catch (error) {
-            alert(error);
-        }
-    };
-    //FACEBOOK SIGNIN
-    const facebook = () => {
-        try {
-            firebase
-                .auth()
-                .signInWithPopup(facebookProvider);
-        } catch (error) {
-            alert(error);
-        }
-    }
+    // const google = () => {
+    //     try {
+    //         firebase
+    //             .auth()
+    //             .signInWithPopup(googleProvider);
+    //     } catch (error) {
+    //         alert(error);
+    //     }
+    // };
+    // //FACEBOOK SIGNIN
+    // const facebook = () => {
+    //     try {
+    //         firebase
+    //             .auth()
+    //             .signInWithPopup(facebookProvider);
+    //     } catch (error) {
+    //         alert(error);
+    //     }
+    // }
 
     const signup = () => {
         if (!payload.firstName || !payload.lastName || !payload.email || !payload.password || !payload.birthDate || !payload.gender) {
@@ -144,11 +144,11 @@ export default function Register() {
                     justifyContent: 'center',
                     alignItems: 'center'
                 }}>
-                    <IconButton style={{ color: '#4064AC' }} onClick={facebook}>
+                    <IconButton style={{ color: '#4064AC' }} >
                         <RiFacebookCircleFill />
                     </IconButton>
 
-                    <IconButton color="inherit" onClick={google}>
+                    <IconButton color="inherit">
                         <FcGoogle />
                     </IconButton>
                 </Grid>
