@@ -43,11 +43,11 @@ export default function App() {
       <Router>
         <Switch>
           <Route exact path="/">
-            <Redirect to="/landingPage/account" />
+            <Redirect to="/landingPage" />
           </Route>
 
           <PublicRoute
-            path="/landingPage/account"
+            path="/landingPage"
             component={LandingPage}
             isAuthenticated={values.isAuthenticated}
             restricted={true}
