@@ -72,11 +72,11 @@ const LandingPage = () => {
             container
             direction="row"
             alignItems="center"
-            justify="center"
             style={{
                 minHeight: "100vh",
                 backgroundColor: "#f0f2f5",
                 display: 'flex',
+                justifyContent: 'center',
             }}
         >
             {/* LEFT SIDE */}

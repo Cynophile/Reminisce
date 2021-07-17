@@ -22,12 +22,12 @@ export default function Home() {
             container
             direction="row"
             alignItems="center"
-            justify="center"
             style={{
                 display: 'flex',
                 position: 'static',
                 alignItems: 'center',
-                marginTop: '15px'
+                marginTop: '15px',
+                justifyContent: 'center',
             }}
         >
             <UploadFile />

@@ -13,8 +13,7 @@ export default function Loading() {
                 spacing={0}
                 direction="column"
                 alignItems="center"
-                justify="center"
-                style={{ minHeight: '100vh' }}
+                style={{ minHeight: '100vh', justifyContent: "center" }}
             >
 
                 <Grid item>

@@ -121,10 +121,10 @@ export default function Register() {
         <Grid
             container
             direction="row"
-            justify="center"
             style={{
                 display: 'flex',
                 alignItems: 'center',
+                justifyContent: 'center',
             }}
         >
             <FormGroup style={{

@@ -113,11 +113,11 @@ const Login = () => {
             container
             direction="row"
             alignItems="center"
-            justify="center"
             style={{
                 minHeight: "50vh",
                 display: 'flex',
                 alignItems: 'center',
+                justifyContent: 'center',
             }}
         >
             <FormGroup style={{

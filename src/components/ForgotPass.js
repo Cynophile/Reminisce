@@ -44,11 +44,11 @@ const Recovery = () => {
             container
             direction="row"
             alignItems="center"
-            justify="center"
             style={{
                 minHeight: "15vh",
                 display: 'flex',
                 alignItems: 'center',
+                justifyContent: 'center'
             }}
         >
             <FormGroup style={{
